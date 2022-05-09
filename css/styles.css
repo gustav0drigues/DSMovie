@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 * {
-    font-family:'Open Sans', sans-serif ;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
-h1{
-    color: forestgreen;
+
+html, body {
+    background-color: rgb(227, 227, 241);
+}
+
+header{
+    background-color: rgb(36, 36, 66);
+    color: gainsboro;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
 }
